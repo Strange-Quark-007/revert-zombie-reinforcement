@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "strangequark.revertzombiereinforcement.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ZombieEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
