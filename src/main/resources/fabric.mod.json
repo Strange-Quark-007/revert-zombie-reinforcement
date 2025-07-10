@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "revertzombiereinforcement",
+	"version": "${version}",
+	"name": "Revert Zombie Reinforcement",
+	"description": "Restores pre-1.21.2 zombie reinforcement behavior. Reinforcements now always spawn regular zombies, not subtypes like drowned or husks.",
+	"authors": [
+		"Strange Quark!"
+	],
+	"license": "MIT",
+	"icon": "assets/revertzombiereinforcement/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"strangequark.revertzombiereinforcement.RevertZombieReinforcement"
+		]
+	},
+	"mixins": [
+		"revertzombiereinforcement.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.2",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
