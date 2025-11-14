@@ -2,8 +2,10 @@
 
 A lightweight Minecraft mod that restores the zombie reinforcement behavior from version pre-1.21.2.
 
-- As of Minecraft 1.21.2+, zombies spawn reinforcements of the _same subtype_ (e.g., drowned, husk), which hurts zombie-reinforcement-based copper farms.
+- As of Minecraft 1.21.2+, zombies spawn reinforcements of the _same subtype_ (e.g., drowned, husk), which hurts
+  zombie-reinforcement-based copper farms.
 - This mod reverts the change i.e. **all reinforcements now spawn as regular `ZombieEntity`**
+- Configurable by a gamerule `revertZombieReinforcement` (default `true`)
 
 ## Features
 

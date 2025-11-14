@@ -4,7 +4,7 @@
   "package": "strangequark.revertzombiereinforcement.mixin",
   "refmap": "${mod_id}.refmap.json",
   "compatibilityLevel": "JAVA_18",
-  "mixins": ["ZombieMixin"],
+  "mixins": ["GameRuleCreateAccessor", "GameRulesMixin", "ZombieMixin"],
   "client": [],
   "server": [],
   "injectors": {
