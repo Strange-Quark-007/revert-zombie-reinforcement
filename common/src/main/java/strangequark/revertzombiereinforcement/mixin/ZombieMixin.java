@@ -13,7 +13,7 @@ public class ZombieMixin {
 
     @Redirect(method = "hurtServer", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/entity/monster/Zombie;getType()Lnet/minecraft/world/entity/EntityType;"))
     public EntityType<? extends Zombie> redirectGetType(Zombie zombie) {
-        var level = zombie.level();
+        var level = ((net.minecraft.world.entity.Entity) zombie).level();
 
         if (!(level instanceof ServerLevel serverLevel)) {
             return zombie.getType();
