@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> **This repository has been archived.**  
+> Ongoing development of **Revert Zombie Reinforcement** for Minecraft 26.1+ has moved to the monorepo: [**StrangeQuark-Mods**](https://github.com/Strange-Quark-007/StrangeQuark-Mods).
+
 # Revert Zombie Reinforcement
 
 A lightweight Minecraft mod that restores the zombie reinforcement behavior from version pre-1.21.2.
